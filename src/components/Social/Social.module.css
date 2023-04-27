@@ -1,0 +1,27 @@
+.link{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+
+}
+.link:hover{
+    background: linear-gradient(270deg, #8743FF 0%, #D8C2FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.social__item{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.social__blok{
+    display: flex;
+    gap: 24px;
+    padding-left: 26px;
+    padding-top: 10px;
+}

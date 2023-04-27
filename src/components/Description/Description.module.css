@@ -1,0 +1,17 @@
+.span{
+    color: rgba(255, 255, 255, 0.5);
+}
+.descr{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFF
+
+}
+.text{
+    padding-left: 24px;
+    padding-top: 15px;
+    width: 1061px;
+}

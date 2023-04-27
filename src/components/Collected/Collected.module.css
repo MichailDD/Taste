@@ -1,0 +1,19 @@
+.title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.title:hover{
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s;
+}
+.text{
+    padding-left: 24px;
+    padding-top: 40px;
+    display: flex;
+    gap: 23px;
+}

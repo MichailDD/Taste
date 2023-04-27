@@ -1,0 +1,7 @@
+.galary{
+    padding-top: 23px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

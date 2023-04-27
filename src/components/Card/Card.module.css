@@ -1,0 +1,78 @@
+.card{
+    border: 1px solid #333940;
+    width: 317px;
+    height: 446px;
+}
+.cart__top{
+    width: 317px;
+    height: 317px;
+    background-size: cover;
+    padding-top: 12px;
+    padding-left: 16px;
+}
+.title{
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;  
+    color: #FFFFFF;
+}
+.sold{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.price{
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.hour{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.card__info{
+    padding-top: 24px;
+    padding-left: 16px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-top: 17px;
+    gap: 15px;
+}
+.about{
+    display: flex ;
+    align-items: center;
+    gap: 126px;
+}
+.right{
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   padding-top: 16px;
+   
+
+}
+.image{
+    display: flex;
+    gap: 5px;
+   
+}
+.hours{
+   display: flex;
+   gap: 4px;
+}
