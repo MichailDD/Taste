@@ -1,0 +1,47 @@
+.card{
+    border: 1px solid #333940;
+    width: 245px;
+    height: 222px;
+
+}
+.title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.subtitle{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(270deg, #8743FF 0%, #D8C2FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.price{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-top: 6px;
+    padding-left: 2px;
+}
+.img{
+    display: flex;
+   justify-content: center;
+   padding-top: 8px;
+}

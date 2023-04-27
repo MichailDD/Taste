@@ -19,13 +19,9 @@
     height: 32px;
     flex: 1 1 auto;
     margin-left: 27px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 14px;
-    padding-left: 41px;
     color: #FFFFFF;
+    display: flex;
+
 }
 .btn{
     color: #FFFFFF;
@@ -43,4 +39,39 @@
 .logo:hover{
     transform: scale(1.2);
     transition: all 0.5s;
+}
+.nav__link{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.nav{
+    padding-left: 300px;    
+    display: flex;
+    gap: 35px;
+    padding-top: 5px;
+}
+.descr{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.search{
+    padding-left: 15px;
+    padding-top: 4px;
+   
+}
+.descr{
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.img{
+    padding-top: 5px;
 }
