@@ -1,5 +1,4 @@
 import styles from  "./User.module.css"
-import Followers from "../Followers/Followers";
 const User = () => {
     return ( 
         <div className={styles.blok}>
@@ -13,10 +12,7 @@ const User = () => {
                         @username
                         </h2>
                     </div>
-                </div>
-                <div className={styles.blok__right}>
-                <Followers/>
-                </div>  
+                </div> 
         </div>
      );
 }

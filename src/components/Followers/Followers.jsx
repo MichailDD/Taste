@@ -1,4 +1,4 @@
-
+import Links from '../Links/Links';
 import styles from './Followers.module.css'
 const Followers = () => {
     return ( 
@@ -13,15 +13,7 @@ const Followers = () => {
         </div>
         <button className={styles.btn}>Follow</button>
         <div className={styles.icons}>
-            <div className={styles.icon}>
-                <img src="/icon01.svg" alt="icon" />
-            </div>
-            <div className={styles.icon}>
-                <img src="/icon02.svg" alt="icon" />
-            </div>
-            <div className={styles.icon}>
-                <img src="/icon03.svg" alt="icon" />
-            </div>
+            <Links/>
         </div>
        </div>
      );

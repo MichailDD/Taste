@@ -16,6 +16,8 @@ const Header = () => {
                 <div className={styles.nav}>
                 <Link className={styles.nav__link} to={"/"}>Home</Link>
                 <Link className={styles.nav__link} to={"/search"}>Search</Link>
+                <Link className={styles.nav__link} to={"/artwork"}>Artwork</Link>
+                <Link className={styles.nav__link} to={"/main"}>Artwork</Link>
                 </div>
                 </div>
                 <button className={styles.btn}>Connect wallet</button>

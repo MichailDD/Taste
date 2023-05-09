@@ -1,0 +1,14 @@
+.blok{
+    mix-blend-mode: normal;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    gap: 8px;
+}
